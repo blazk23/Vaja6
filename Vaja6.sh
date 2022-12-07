@@ -1,8 +1,5 @@
 #!/bin/bash
-echo "hello"
 
-mkdir -p WINDOWS
-
+mkdir WINDOWS
 cd WINDOWS
-
 mkdir Desktop, Documents, Downloads, Pictures, Videos
