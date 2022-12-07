@@ -4,4 +4,9 @@ mkdir WINDOWS
 cd WINDOWS
 mkdir Desktop Documents Downloads Pictures Videos
 cd Documents
-for /l %b in (1,2,5) do mkdir %b_folder
+start=1
+end=5
+for((i=$start;i<=$end;i++))
+do
+mkdir "FOLDER_${i}"
+done
