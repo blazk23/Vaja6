@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "hello"
 
-mkdir Windows
+mkdir -p WINDOWS/Documents/Music/Videos
